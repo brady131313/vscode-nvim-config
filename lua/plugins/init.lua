@@ -66,4 +66,28 @@ return {
     opts = {
     }
   },
+  {
+    "greggh/claude-code.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    opts = {
+      window = {
+        position = "float",
+        width = "80%",
+        height = "70%",
+        row = "center",
+        col = "center",
+        relative = "editor",
+        border = "double"
+      },
+      keymaps = {
+        toggle = {
+          normal = false,
+          terminal = false,
+          variants = false
+        },
+        window_navigation = false,
+        scrolling = false
+      }
+    }
+  }
 }

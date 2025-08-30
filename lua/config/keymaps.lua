@@ -94,3 +94,7 @@ keymap("n", "]e", diagnostic_goto(true, "ERROR"), { desc = "Next Error" })
 keymap("n", "[e", diagnostic_goto(false, "ERROR"), { desc = "Prev Error" })
 keymap("n", "]w", diagnostic_goto(true, "WARN"), { desc = "Next Warning" })
 keymap("n", "[w", diagnostic_goto(false, "WARN"), { desc = "Prev Warning" })
+
+-- Claude Code
+keymap("n", "<leader>ai", "<cmd>ClaudeCode<CR>", { desc = "Claude Code" })
+keymap("n", "<leader>ac", "<cmd>ClaudeCodeContinue<CR>", { desc = "Claude Code COntinue" })
