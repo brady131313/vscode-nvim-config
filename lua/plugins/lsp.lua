@@ -1,9 +1,10 @@
 local servers = {
   lua_ls = {},
   rust_analyzer = {},
-  elixirls = {
-    cmd = { "elixir-ls" }
-  },
+  -- elixirls = {
+  --   cmd = { "elixir-ls" }
+  -- },
+  expert = {},
   vtsls = {},
   tailwindcss = {},
   cssls = {},

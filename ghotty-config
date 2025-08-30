@@ -1,0 +1,67 @@
+# This is the configuration file for Ghostty.
+#
+# This template file has been automatically created at the following
+# path since Ghostty couldn't find any existing config files on your system:
+#
+#   /home/bradyp/.config/ghostty/config
+#
+# The template does not set any default options, since Ghostty ships
+# with sensible defaults for all options. Users should only need to set
+# options that they want to change from the default.
+#
+# Run `ghostty +show-config --default --docs` to view a list of
+# all available config options and their default values.
+#
+# Additionally, each config option is also explained in detail
+# on Ghostty's website, at https://ghostty.org/docs/config.
+
+# Config syntax crash course
+# ==========================
+# # The config file consists of simple key-value pairs,
+# # separated by equals signs.
+# font-family = Iosevka
+# window-padding-x = 2
+#
+# # Spacing around the equals sign does not matter.
+# # All of these are identical:
+# key=value
+# key= value
+# key =value
+# key = value
+#
+# # Any line beginning with a # is a comment. It's not possible to put
+# # a comment after a config option, since it would be interpreted as a
+# # part of the value. For example, this will have a value of "#123abc":
+# background = #123abc
+#
+# # Empty values are used to reset config keys to default.
+# key =
+#
+# # Some config options have unique syntaxes for their value,
+# # which is explained in the docs for that config option.
+# # Just for example:
+# resize-overlay-duration = 4s 200ms
+theme = tokyonight_night
+
+font-family = "Monaspace Neon NF"
+# Bold text uses Xenon (the heaviest/boldest variant)
+font-family-bold = "Monaspace Xenon NF"
+# Italic text uses Radon (the script/cursive variant)
+font-family-italic = "Monaspace Radon NF"
+# Bold italic combines both - using Xenon Bold Italic
+font-family-bold-italic = "Monaspace Xenon NF Bold Italic"
+
+font-feature = calt    # Contextual alternates (programming ligatures)
+font-feature = liga    # Standard ligatures
+# font-feature = dlig    # Discretionary ligatures
+font-feature = ss01    # Stylistic set 1
+font-feature = ss02    # Stylistic set 2
+font-feature = ss03    # Stylistic set 3
+font-feature = ss04    # Stylistic set 4
+font-feature = ss05    # Stylistic set 5
+# font-feature = ss06    # Stylistic set 6
+# font-feature = ss07    # Stylistic set 7
+# font-feature = ss08    # Stylistic set 8
+
+font-synthetic-style = true
+keybind = shift+enter=text:\x1b\r
